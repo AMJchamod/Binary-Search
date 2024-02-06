@@ -18,10 +18,10 @@ public class binaryserach {
             if(array[m]==x)
                return m;
            if(array[m]<x){
-               l=m+1;  // ignore left hand side
+               l=m+1;  // use left hand side
             
        } else{
-              r=m-1;  //ignore the right hand side
+              r=m-1;  // use  right hand side
        }
        }
         return -1;
